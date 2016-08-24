@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA53D1F1D3620E900C7FE96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA53D1E1D3620E900C7FE96 /* main.m */; };
+		3FA53D221D3620E900C7FE96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA53D211D3620E900C7FE96 /* AppDelegate.m */; };
+		3FA53D251D3620E900C7FE96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA53D241D3620E900C7FE96 /* ViewController.m */; };
+		3FA53D281D3620E900C7FE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA53D261D3620E900C7FE96 /* Main.storyboard */; };
+		3FA53D2A1D3620E900C7FE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA53D291D3620E900C7FE96 /* Assets.xcassets */; };
+		3FA53D2D1D3620E900C7FE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA53D2B1D3620E900C7FE96 /* LaunchScreen.storyboard */; };
+		3FA53D381D3620E900C7FE96 /* TestAzurePushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA53D371D3620E900C7FE96 /* TestAzurePushTests.m */; };
+		3FA53D431D3620E900C7FE96 /* TestAzurePushUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA53D421D3620E900C7FE96 /* TestAzurePushUITests.m */; };
+		3FA53D511D362CDF00C7FE96 /* WindowsAzureMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA53D501D362CDF00C7FE96 /* WindowsAzureMessaging.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA53D341D3620E900C7FE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA53D121D3620E800C7FE96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA53D191D3620E900C7FE96;
+			remoteInfo = TestAzurePush;
+		};
+		3FA53D3F1D3620E900C7FE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA53D121D3620E800C7FE96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA53D191D3620E900C7FE96;
+			remoteInfo = TestAzurePush;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FA53D1A1D3620E900C7FE96 /* TestAzurePush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAzurePush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA53D1E1D3620E900C7FE96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FA53D201D3620E900C7FE96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FA53D211D3620E900C7FE96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FA53D231D3620E900C7FE96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FA53D241D3620E900C7FE96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FA53D271D3620E900C7FE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA53D291D3620E900C7FE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA53D2C1D3620E900C7FE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA53D2E1D3620E900C7FE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA53D331D3620E900C7FE96 /* TestAzurePushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAzurePushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA53D371D3620E900C7FE96 /* TestAzurePushTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAzurePushTests.m; sourceTree = "<group>"; };
+		3FA53D391D3620E900C7FE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA53D3E1D3620E900C7FE96 /* TestAzurePushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAzurePushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA53D421D3620E900C7FE96 /* TestAzurePushUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAzurePushUITests.m; sourceTree = "<group>"; };
+		3FA53D441D3620E900C7FE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA53D501D362CDF00C7FE96 /* WindowsAzureMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMessaging.framework; sourceTree = "<group>"; };
+		3FA53D521D362DD700C7FE96 /* HubInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HubInfo.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA53D171D3620E900C7FE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA53D511D362CDF00C7FE96 /* WindowsAzureMessaging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA53D301D3620E900C7FE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA53D3B1D3620E900C7FE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA53D111D3620E800C7FE96 = {
+			isa = PBXGroup;
+			children = (
+				3FA53D1C1D3620E900C7FE96 /* TestAzurePush */,
+				3FA53D361D3620E900C7FE96 /* TestAzurePushTests */,
+				3FA53D411D3620E900C7FE96 /* TestAzurePushUITests */,
+				3FA53D1B1D3620E900C7FE96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA53D1B1D3620E900C7FE96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA53D1A1D3620E900C7FE96 /* TestAzurePush.app */,
+				3FA53D331D3620E900C7FE96 /* TestAzurePushTests.xctest */,
+				3FA53D3E1D3620E900C7FE96 /* TestAzurePushUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA53D1C1D3620E900C7FE96 /* TestAzurePush */ = {
+			isa = PBXGroup;
+			children = (
+				3FA53D521D362DD700C7FE96 /* HubInfo.h */,
+				3FA53D201D3620E900C7FE96 /* AppDelegate.h */,
+				3FA53D211D3620E900C7FE96 /* AppDelegate.m */,
+				3FA53D231D3620E900C7FE96 /* ViewController.h */,
+				3FA53D241D3620E900C7FE96 /* ViewController.m */,
+				3FA53D261D3620E900C7FE96 /* Main.storyboard */,
+				3FA53D291D3620E900C7FE96 /* Assets.xcassets */,
+				3FA53D2B1D3620E900C7FE96 /* LaunchScreen.storyboard */,
+				3FA53D2E1D3620E900C7FE96 /* Info.plist */,
+				3FA53D1D1D3620E900C7FE96 /* Supporting Files */,
+			);
+			path = TestAzurePush;
+			sourceTree = "<group>";
+		};
+		3FA53D1D1D3620E900C7FE96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FA53D1E1D3620E900C7FE96 /* main.m */,
+				3FA53D501D362CDF00C7FE96 /* WindowsAzureMessaging.framework */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FA53D361D3620E900C7FE96 /* TestAzurePushTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA53D371D3620E900C7FE96 /* TestAzurePushTests.m */,
+				3FA53D391D3620E900C7FE96 /* Info.plist */,
+			);
+			path = TestAzurePushTests;
+			sourceTree = "<group>";
+		};
+		3FA53D411D3620E900C7FE96 /* TestAzurePushUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA53D421D3620E900C7FE96 /* TestAzurePushUITests.m */,
+				3FA53D441D3620E900C7FE96 /* Info.plist */,
+			);
+			path = TestAzurePushUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA53D191D3620E900C7FE96 /* TestAzurePush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA53D471D3620E900C7FE96 /* Build configuration list for PBXNativeTarget "TestAzurePush" */;
+			buildPhases = (
+				3FA53D161D3620E900C7FE96 /* Sources */,
+				3FA53D171D3620E900C7FE96 /* Frameworks */,
+				3FA53D181D3620E900C7FE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAzurePush;
+			productName = TestAzurePush;
+			productReference = 3FA53D1A1D3620E900C7FE96 /* TestAzurePush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FA53D321D3620E900C7FE96 /* TestAzurePushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA53D4A1D3620E900C7FE96 /* Build configuration list for PBXNativeTarget "TestAzurePushTests" */;
+			buildPhases = (
+				3FA53D2F1D3620E900C7FE96 /* Sources */,
+				3FA53D301D3620E900C7FE96 /* Frameworks */,
+				3FA53D311D3620E900C7FE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA53D351D3620E900C7FE96 /* PBXTargetDependency */,
+			);
+			name = TestAzurePushTests;
+			productName = TestAzurePushTests;
+			productReference = 3FA53D331D3620E900C7FE96 /* TestAzurePushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FA53D3D1D3620E900C7FE96 /* TestAzurePushUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA53D4D1D3620E900C7FE96 /* Build configuration list for PBXNativeTarget "TestAzurePushUITests" */;
+			buildPhases = (
+				3FA53D3A1D3620E900C7FE96 /* Sources */,
+				3FA53D3B1D3620E900C7FE96 /* Frameworks */,
+				3FA53D3C1D3620E900C7FE96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA53D401D3620E900C7FE96 /* PBXTargetDependency */,
+			);
+			name = TestAzurePushUITests;
+			productName = TestAzurePushUITests;
+			productReference = 3FA53D3E1D3620E900C7FE96 /* TestAzurePushUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA53D121D3620E800C7FE96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lan;
+				TargetAttributes = {
+					3FA53D191D3620E900C7FE96 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5KB4JA87DR;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					3FA53D321D3620E900C7FE96 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3FA53D191D3620E900C7FE96;
+					};
+					3FA53D3D1D3620E900C7FE96 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3FA53D191D3620E900C7FE96;
+					};
+				};
+			};
+			buildConfigurationList = 3FA53D151D3620E800C7FE96 /* Build configuration list for PBXProject "TestAzurePush" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA53D111D3620E800C7FE96;
+			productRefGroup = 3FA53D1B1D3620E900C7FE96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA53D191D3620E900C7FE96 /* TestAzurePush */,
+				3FA53D321D3620E900C7FE96 /* TestAzurePushTests */,
+				3FA53D3D1D3620E900C7FE96 /* TestAzurePushUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA53D181D3620E900C7FE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA53D2D1D3620E900C7FE96 /* LaunchScreen.storyboard in Resources */,
+				3FA53D2A1D3620E900C7FE96 /* Assets.xcassets in Resources */,
+				3FA53D281D3620E900C7FE96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA53D311D3620E900C7FE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA53D3C1D3620E900C7FE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA53D161D3620E900C7FE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA53D251D3620E900C7FE96 /* ViewController.m in Sources */,
+				3FA53D221D3620E900C7FE96 /* AppDelegate.m in Sources */,
+				3FA53D1F1D3620E900C7FE96 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA53D2F1D3620E900C7FE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA53D381D3620E900C7FE96 /* TestAzurePushTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA53D3A1D3620E900C7FE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA53D431D3620E900C7FE96 /* TestAzurePushUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA53D351D3620E900C7FE96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA53D191D3620E900C7FE96 /* TestAzurePush */;
+			targetProxy = 3FA53D341D3620E900C7FE96 /* PBXContainerItemProxy */;
+		};
+		3FA53D401D3620E900C7FE96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA53D191D3620E900C7FE96 /* TestAzurePush */;
+			targetProxy = 3FA53D3F1D3620E900C7FE96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FA53D261D3620E900C7FE96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA53D271D3620E900C7FE96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA53D2B1D3620E900C7FE96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA53D2C1D3620E900C7FE96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA53D451D3620E900C7FE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA53D461D3620E900C7FE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA53D481D3620E900C7FE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestAzurePush",
+				);
+				INFOPLIST_FILE = TestAzurePush/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lan.TestAzurePush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FA53D491D3620E900C7FE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestAzurePush",
+				);
+				INFOPLIST_FILE = TestAzurePush/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lan.TestAzurePush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FA53D4B1D3620E900C7FE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestAzurePushTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lan.TestAzurePushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAzurePush.app/TestAzurePush";
+			};
+			name = Debug;
+		};
+		3FA53D4C1D3620E900C7FE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestAzurePushTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lan.TestAzurePushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAzurePush.app/TestAzurePush";
+			};
+			name = Release;
+		};
+		3FA53D4E1D3620E900C7FE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestAzurePushUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lan.TestAzurePushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestAzurePush;
+			};
+			name = Debug;
+		};
+		3FA53D4F1D3620E900C7FE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestAzurePushUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lan.TestAzurePushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestAzurePush;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA53D151D3620E800C7FE96 /* Build configuration list for PBXProject "TestAzurePush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA53D451D3620E900C7FE96 /* Debug */,
+				3FA53D461D3620E900C7FE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA53D471D3620E900C7FE96 /* Build configuration list for PBXNativeTarget "TestAzurePush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA53D481D3620E900C7FE96 /* Debug */,
+				3FA53D491D3620E900C7FE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FA53D4A1D3620E900C7FE96 /* Build configuration list for PBXNativeTarget "TestAzurePushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA53D4B1D3620E900C7FE96 /* Debug */,
+				3FA53D4C1D3620E900C7FE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FA53D4D1D3620E900C7FE96 /* Build configuration list for PBXNativeTarget "TestAzurePushUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA53D4E1D3620E900C7FE96 /* Debug */,
+				3FA53D4F1D3620E900C7FE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FA53D121D3620E800C7FE96 /* Project object */;
+}
